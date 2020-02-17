@@ -1,0 +1,22 @@
+{%  extends 'base.html.twig'  %}
+
+{% block body %}
+<h1> Bienvenue dans ce blog </h1>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias deleniti eum iure quo tenetur ut? Animi assumenda
+    dignissimos eligendi est expedita facilis fugit hic id impedit, magnam nemo non praesentium qui quia tempore, velit
+    voluptas? Aspernatur at distinctio perspiciatis quae?</p><p>Ad aliquam assumenda autem cum delectus dolorem
+    doloremque, eius enim facere id ipsam laudantium nihil quasi saepe sed, similique suscipit temporibus veritatis
+    voluptas voluptatem? Architecto asperiores, consectetur culpa cum eum in ipsum laborum maxime quam repellat
+    repudiandae sequi sint, voluptates!</p>
+
+
+<h1> {{ title }} </h1>
+{% if age > 18 %}
+    <p> Tu es majeur </p>
+{% else %}
+    <p> Tu es mineur</p>
+{% endif %}
+
+{% endblock %}
+
